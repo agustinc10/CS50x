@@ -1,0 +1,7 @@
+- Single command argument, argv must be an int = k > 0
+- If EMPTY command arg --> print ERROR message / return 1
+- if any of the arg is NOT a NUMBER, print "Usage: ./caesar key" and return 1
+- Output "plaintext:  " (get_string)
+- Output "ciphertext: \n"
+- Preserve case
+- Return 0

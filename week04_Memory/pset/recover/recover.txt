@@ -1,0 +1,18 @@
+Open memory card
+Look for beginning of a JPEG
+Open a new JPEG file
+Write 512 bytes until a new JPEG is found
+Stop at end of file
+
+Open memory card
+Repeat process until end of card:
+    Read 512B into buffer
+    If start of new JPEG
+        If first JPEG
+            ...start writing first file
+        Else
+            ...close previous file and open a new one and start writing
+    Else
+        If already found JPEG
+            ...continue writing into open JPEG
+Close remaining files

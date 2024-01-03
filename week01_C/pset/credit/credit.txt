@@ -1,0 +1,19 @@
+prompt user for credit card w/ get_long
+Calculate checksum
+Check for card length and starting digits
+Print
+
+Checksum
+    divido por 10, actualizo y gurado el resto en una variable
+
+
+
+American Express
+    15-digit
+    Start 34 / 37
+Mastercard
+    16-digit
+    Start 51 / 52 / 53 / 54 / 55
+VISA
+    13 or 16 digit
+    Start 4

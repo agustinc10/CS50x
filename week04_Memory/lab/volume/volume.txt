@@ -1,0 +1,12 @@
+*Read header from input
+*Write header to output
+For each 2-Byte sample,
+    read
+    multiply by factor
+    write to output
+
+uint8_t for header
+int16_t for samples
+
+fread
+fwrite

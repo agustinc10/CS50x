@@ -1,0 +1,10 @@
+Open CSV file and DNA sequence, read contents into memory
+
+For each STR, compute the longest run of consecutive repeats in DNA sequence
+    For each position, keep checking successive substrings
+    until the STR repeats no longer
+    len(s)
+    s[i:j]
+Compare the STR counts against each row in CSV file
+    Save STR counts in some data structure
+    For each row in the date check if STR count matches

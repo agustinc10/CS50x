@@ -1,0 +1,94 @@
+.title{
+    text-align: center;
+    font-family: "Rockwell", Arial, serif;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: LightSlateGrey;
+}
+
+.navagu{
+    text-align: center;
+    font-family: "Rockwell", Arial, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    background-image: url('Foto1_MN78.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#333333;
+
+}
+
+main{
+    text-align: center;
+    font-family: "Rockwell", Arial, serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 2;
+    color: white;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    text-align: center;
+    font-family: "Rockwell", Arial, serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 5;
+    color: white;
+    background-color: black;
+    margin-top: auto;
+}
+
+span{
+    background-color: #404040;
+}
+
+table{
+    text-align: center;
+    font-family: "Rockwell", Arial, serif;
+    font-size: 20px;
+    line-height: 2;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    background-color: black;
+    border: 2px solid #000066;
+    table-layout: auto;
+    width: 600px;
+}
+
+.prev{
+    margin-left: 20px;
+    text-align: center;
+    font-family: "Rockwell", Arial, serif;
+    font-size: 25px;
+    line-height: 2;
+    color: white;
+    background-color: #000066;
+    width: 100px;
+}
+
+.next
+{
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    font-family: "Rockwell", Arial, serif;
+    font-size: 25px;
+    line-height: 2;
+    color: white;
+    background-color: #000066;
+    width: 100px;
+}
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}

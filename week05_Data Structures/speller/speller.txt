@@ -1,0 +1,52 @@
+LOAD
+*Open dictionary file
+    fopen
+    check if return is NULL
+*Read strings from file, 1 at a time (LOOP)
+    fscanf(file,"%s", word)
+    fscanf will return EOF once it reaches end of file
+
+*        Create a new node for each word
+            Use malloc --- node *n = malloc(sizeof(node))
+            check if return is NULL
+            Copy word into node using strcpy ---- strcpy(n->word, "Hello")
+*        Hash word to obtain a hash value
+            Use the hash function
+            Function takes a string and returns an index
+*        Insert node into hash table at that location
+            Recall that a hash table is an array of linked lists (NODES)
+                NODE
+                char word [LENGTH + ]
+                struct node *next
+            Be sure to set pointers in the correct order
+
+HASH
+*Input: word, with alphabetical characters and (possibly) apostrophes
+*Output: numerical index between 0 and N-1, inclusive
+*Deterministic
+
+*Larger N means more buckets
+*If your function ends up with a value greater than N,
+you can take the value %N to get a value in the appropriate range
+*Ecamples
+    First letter
+    First two letters
+    Math using all the letters
+    ...
+
+SIZE
+*Return number of words in dictionary
+(use counter from LOAD function)
+
+CHECK
+*Return true if word in dictionary, false otherwise
+*Case insensitive
+    *Hash word
+    *Access linked list at that index in the hash table
+    *Traverse linked list, looking for the word (strcasecmp)
+        Start with cursor set to first item in linked list
+        Keep moving cursor until you get to NULL, checking each node for the word
+            LOOP cursor = cursor->next
+            until NULL
+
+UNLOAD

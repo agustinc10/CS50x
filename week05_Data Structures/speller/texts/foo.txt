@@ -1,0 +1,11 @@
+fo'o
+'foo
+foo'
+foo
+foO
+fOo
+Foo
+fOO
+FoO
+FOo
+FOO

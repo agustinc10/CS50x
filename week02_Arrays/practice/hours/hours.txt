@@ -1,0 +1,2 @@
+1 - Total up the hours saved in the array into a new variable
+2 - Depending on the OUTPUT, return SUM or AVERAGE of hours

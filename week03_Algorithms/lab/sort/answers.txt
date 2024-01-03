@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Lower Omega
+
+sort2 uses: Merge sort
+
+How do you know?: Significantly lower O
+
+sort3 uses: Selection sort
+
+How do you know?: Bigger Omega and similar to it's O

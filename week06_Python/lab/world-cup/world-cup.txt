@@ -1,0 +1,10 @@
+Complete MAIN
+    *Witth csv.DictReader, read teams from CSV
+    *Store each team as a dictcionary in a LIST of teams
+    *Simulate N tournaments with the simulate_tournament function
+    *Keep track of win COUNTS in the counts dictionary
+Complete SIMULATE_TOURNAMENT
+    *Use the simulate_round function, which accepts a list of teams and
+    *returns a list of winners
+    *Repeatedly simulate rounds until one team is left.
+    *Return name of winning team

@@ -1,0 +1,8 @@
+prompt user for input
+    do while loop
+build pyramid on left side
+    for loop
+    print hashes and new line for each loop
+right align pyramid
+    print dots before hashes (depends on height of pyramid and current row)
+    replace dots for spaces

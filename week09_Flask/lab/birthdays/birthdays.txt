@@ -1,0 +1,8 @@
+In app.py query for all birthdays and pass that to INDEX.HTML
+
+In index.html render each birthday as a ROW in the TABLE
+
+In index.html add a FORM to let users add a NEW birthday
+
+In app.py, when the form submission is received,
+INSERT the birthday into the DATABASE

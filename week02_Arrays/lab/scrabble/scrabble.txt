@@ -1,0 +1,4 @@
+- Sacar los que no son letras
+- Pasar todo a mayúscula
+- Restar 65 para poder buscar en el array POINTS
+- Sumar puntos

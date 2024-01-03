@@ -1,0 +1,18 @@
+REGISTER
+    Make function
+    Create register.html similar to login.html
+
+QUOTE
+    Make function using lookup
+    Create 2 new templates - quote.html and quoted.html
+
+BUY
+    Create new SQL tables
+
+INDEX
+
+SELL
+
+HISTORY
+
+PERSONAL TOUCH

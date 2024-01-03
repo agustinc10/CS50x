@@ -1,0 +1,11 @@
+Read each block from the end of input
+Write each block to the output file simultaneously
+
+
+Declare an array to store each block we read
+Iterate through input file audio data
+DON'T copy data from header
+
+Mantain order of channels
+Confirm that channel 1 of last audio block in input
+            is channel 1 of first audio block in output
